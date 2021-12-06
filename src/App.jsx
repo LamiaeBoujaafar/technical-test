@@ -23,8 +23,7 @@ export function App() {
                 </ToolBar>
             </AppBar>
             <Container sx={{
-                overflow: 'auto',
-                maxHeight: 'calc(100% - 64px)'
+                overflow: 'auto'
             }}>
                 <Routes>
                     <Route path="login" element={ <Login /> }/>
